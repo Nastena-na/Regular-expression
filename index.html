@@ -35,7 +35,7 @@
                 name="name"
                 minlength="2"
                 maxlength="20"
-                pattern=""
+                pattern="[А-ЯЁ][а-яё]+(-[А-ЯЁ][а-яё]+)?"
                 placeholder="Имя"
                 required
               />
@@ -45,7 +45,7 @@
                 class="form__input"
                 type="text"
                 name="email"
-                pattern=""
+                pattern="(\w+(-\w+)?)@(\w+((-\w+)|(\w+\.\w+))?)\.\w+"
                 placeholder="E-Mail"
                 required
               />
@@ -59,7 +59,7 @@
                 type="text"
                 name="tel"
                 placeholder="Телефон"
-                pattern=""
+                pattern="(\+\d|\d)((\(\d{3}\)\s?\d{3}-\d{2}-\d{2})|(\s\d{3}-\d{3}-\d{2}-\d{2})|(\d{10}))"
                 minlength=""
                 maxlength="18"
                 required
@@ -71,7 +71,7 @@
                 class="form__input"
                 type="text"
                 name="url"
-                pattern=""
+                pattern="(https?:\/\/)(www\.)?((\d{0,3}\.\d{0,3}\.\d{0,3}\.\d{0,3}(:\d{2,5})(\S+)?)|(\S+\.\w+)\S+)"
                 placeholder="Ваш сайт"
                 required
               />
