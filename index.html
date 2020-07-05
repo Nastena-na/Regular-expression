@@ -45,7 +45,7 @@
                 class="form__input"
                 type="text"
                 name="email"
-                pattern="(\w+(-\w+)?)@(\w+((-\w+)|(\w+\.\w+))?)\.\w+"
+                pattern="(\w+(-\w+)?(\.\w+)?)@(\w+((-\w+)|(\w+\.\w+))?)\.\w+"
                 placeholder="E-Mail"
                 required
               />
@@ -71,7 +71,7 @@
                 class="form__input"
                 type="text"
                 name="url"
-                pattern="(https?:\/\/)(www\.)?((\d{0,3}\.\d{0,3}\.\d{0,3}\.\d{0,3}(:\d{2,5})(\S+)?)|(\S+\.\w+)\S+)"
+                pattern="(https?:\/\/)(www\.)?((\d{0,3}\.\d{0,3}\.\d{0,3}\.\d{0,3}(:(?!0+)\d{2,5})?((\/\w+)+\/?#?$)?)(\/)?|([\w-]+\.\w+)(:(?!0+)\d{2,5})?((\/\w+)+\/?#?$)?(\/)?)"
                 placeholder="Ваш сайт"
                 required
               />
