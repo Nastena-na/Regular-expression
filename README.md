@@ -1,3 +1,3 @@
-# [Ссылка на проектную работу](Nastena-na.github.io/Sprint-10.githab.io/)
+# [Ссылка на проектную работу](https://Nastena-na.github.io/Sprint-10.githab.io/)
 
-### текущая версия - 0.0.3
+### текущая версия - 0.0.4
